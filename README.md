@@ -1,6 +1,6 @@
 # Contact List by Chat GPT
 
-> :warning: :warning: :warning: This application is an experiment of using Chat GPT for React application development. The entire application was developed through interaction with Chat GPT, where some information and all the code, folder structure, unit tests, and even this README were generated through Chat GPT. Only this citation was created by me.
+> :warning: :warning: :warning: This application is an experiment with ChatGPT and web development with React. The application was developed through interaction with ChatGPT, where I inserted some information and all the code, folder structure, unit tests, and even this README were generated through ChatGPT. Only this citation was created by me.
 
 This is a simple web application that allows you to create a contact list and view their details. The application was developed using React and Styled Components.
 
