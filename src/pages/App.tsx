@@ -5,6 +5,7 @@ import Pagination from "../components/Pagination/Pagination";
 import Loader from "../components/Loader/Loader";
 import fetchContacts from "../services/contactsService";
 import debounce from "lodash/debounce";
+import Footer from "../components/Footer/Footer";
 
 const App: React.FC = () => {
   const [contacts, setContacts] = useState<Contact[]>([]);
@@ -52,6 +53,7 @@ const App: React.FC = () => {
           )}
         </>
       )}
+      <Footer />
     </div>
   );
 };
