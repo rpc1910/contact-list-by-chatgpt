@@ -1,5 +1,5 @@
 {
-  "name": "chatgpt-contatos-2",
+  "name": "contact-list-by-chatgpt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,9 +10,13 @@
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "axios": "^1.3.5",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.9",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +43,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.192",
+    "@types/react-modal": "^3.13.1",
+    "@types/styled-components": "^5.1.26"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "axios": "axios/dist/node/axios.cjs"
+    }
   }
 }
